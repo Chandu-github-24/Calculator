@@ -1,0 +1,43 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.header{
+    margin: 20px 0px;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: #f2234a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cal{
+    background-color: blue;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.cal form input{
+    margin: 2px;
+    width: 45px;
+    height: 45px;
+    border-radius: 4px;
+    background: transparent;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+form .dis input{
+   width: 82%; 
+   text-align: right; 
+}
+
+
